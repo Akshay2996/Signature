@@ -2,6 +2,6 @@
 
 This Repo contains my digital signature made by myself using **Html** and **CSS**
 
-### Work in Progress
+### :construction: Work in Progress :construction:
 
-![GitHub Logo](./Screenshots/In Progress.png)
+![In Progress](https://user-images.githubusercontent.com/37118877/71555373-96dced00-2a51-11ea-98b2-d867582f81cf.PNG)
