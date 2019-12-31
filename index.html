@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
@@ -18,10 +18,10 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         width: auto;
         height: auto;
-        min-width: 50px;
-        min-height: 100px;
+        min-width: auto;
+        min-height: auto;
         max-width: 600px;
-        max-height: 300px;
+        max-height: 250px;
         margin: 15px 30px;
       }
 
@@ -39,8 +39,8 @@
 
       .image {
         border-radius: 0%;
-        width: 90%;
-        height: 90%;
+        max-width: 90%;
+        max-height: 90%;
         text-align:center;
       }
 
@@ -50,6 +50,8 @@
         padding: 2px 5px 5px 10px;
         flex: 65%;
         font-family: "Consolas", monospace;
+        width: auto;
+        height: auto;
       }
       a {
         color: black;
@@ -73,7 +75,7 @@
 
       <div class="container">
         <h2><b>Akshay Sharma</b></h2>
-        <p style="color:red; font-size: 14px ">Front End Developer</p>
+        <p style="color:red; font-size: 16px ">Front End Developer</p>
         <hr align="left" style="width: 50%" />
         <p style="font-size: 17px">
           <span class="glyphicon glyphicon-envelope"></span
