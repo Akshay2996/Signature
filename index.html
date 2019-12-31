@@ -17,32 +17,32 @@
         display: flex;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         width: auto;
+        height: auto;
         border: 2px;
         border-color: black;
         margin: 10px 20px;
+        position: fixed;
       }
 
       .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
       }
 
       .photo {
         flex: 35%;
         padding: 10px;
-        height: relative;
+        height: center;
         background-color: #ffcd94;
-        height: relative;
+        text-align: center;
       }
 
       .image {
         border-radius: 50%;
-        width: 50%;
-        padding: 10px 0 20% 10px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        
+        width: 100%;
+        margin: auto;
+        height: auto;
+        text-align:center;
+        display:block;
       }
 
       .container {
@@ -50,8 +50,7 @@
         margin-left: 10px;
         padding: 2px 5px 5px 10px;
         flex: 65%;
-        font-family:'Consolas', monospace;
-        
+        font-family: "Consolas", monospace;
       }
       a {
         color: black;
@@ -59,7 +58,7 @@
       a:hover {
         cursor: pointer;
       }
-      .icon{
+      .icon {
         font-size: 20px;
       }
     </style>
@@ -69,28 +68,36 @@
     <br />
     <div class="card">
       <div class="photo">
-        <img class="image" src="" alt="Avatar" />
-        <p class="image">AS</p>
+        <img class="image" src="Screenshots/Photo.png" alt="Avatar"/>
       </div>
       <div class="container">
         <h2><b>Akshay Sharma</b></h2>
         <p style="color:red; font-size: 14px ">Front End Developer</p>
-        <hr align="left" style="color:black; width: 50%" />
+        <hr align="left" style="width: 50%" />
         <p style="font-size: 17px">
-          <span class="glyphicon glyphicon-envelope"></span>&nbsp;akshaysharmaay@gmail.com
+          <span class="glyphicon glyphicon-envelope"></span
+          >&nbsp;akshaysharmaay@gmail.com
         </p>
         <p style="font-size: 17px">
           <span class="glyphicon glyphicon-phone"></span>&nbsp;(+91)8979800865
         </p>
         <br />
         <p class="icon">
-          <a href="https://github.com/Akshay2996"><i class="fab fa-github"></i></a>
-          
-          <a href="https://www.linkedin.com/in/akshay-sharma-7962ab13a/"><i class="fab fa-linkedin"></i></a>
-          
-          <a href="https://www.instagram.com/shirobakuno/?hl=en"><i class="fab fa-instagram"></i></a>
-          
-          <a href="https://twitter.com/AkshayS2909"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/Akshay2996"
+            ><i class="fab fa-github"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/akshay-sharma-7962ab13a/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+
+          <a href="https://www.instagram.com/shirobakuno/?hl=en"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <a href="https://twitter.com/AkshayS2909"
+            ><i class="fab fa-twitter"></i
+          ></a>
         </p>
       </div>
     </div>
