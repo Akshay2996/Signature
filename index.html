@@ -18,10 +18,11 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         width: auto;
         height: auto;
-        border: 2px;
-        border-color: black;
-        margin: 10px 20px;
-        position: fixed;
+        min-width: 50px;
+        min-height: 100px;
+        max-width: 600px;
+        max-height: 300px;
+        margin: 15px 30px;
       }
 
       .card:hover {
@@ -37,12 +38,11 @@
       }
 
       .image {
-        border-radius: 50%;
+        border-radius: 0%;
         width: 100%;
         margin: auto;
-        height: auto;
+        height: 100%;
         text-align:center;
-        display:block;
       }
 
       .container {
@@ -70,6 +70,7 @@
       <div class="photo">
         <img class="image" src="Screenshots/Photo.png" alt="Avatar"/>
       </div>
+
       <div class="container">
         <h2><b>Akshay Sharma</b></h2>
         <p style="color:red; font-size: 14px ">Front End Developer</p>
