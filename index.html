@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
@@ -40,9 +40,9 @@
 
       .image {
         border-radius: 0%;
-        text-align:center;
-        width: 90%;  
-        height: 90%;  
+        text-align: center;
+        width: 90%;
+        height: 90%;
         object-fit: cover;
       }
 
@@ -52,7 +52,6 @@
         padding: 2px 5px 5px 10px;
         flex: 65%;
         font-family: "Consolas", monospace;
-        
       }
       a {
         color: black;
@@ -63,6 +62,12 @@
       .icon {
         font-size: 20px;
       }
+
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
     </style>
   </head>
   <body>
@@ -70,14 +75,14 @@
     <br />
     <div class="card">
       <div class="photo">
-        <img class="image" src="Screenshots/Photo.png" alt="Avatar"/>
+        <img class="image" src="Screenshots/Photo.png" alt="Avatar" />
         <p style="padding-top: 10px">AS</p>
       </div>
 
       <div class="container">
         <h2 style="font-size: auto"><b>Akshay Sharma</b></h2>
         <p style="color:red; font-size: 16px ">Front End Developer</p>
-        <hr align="left" style= "color:black; width: 50%" />
+        <hr align="left" style="color:black; width: 50%" />
         <p style="font-size: 16px">
           <span class="glyphicon glyphicon-envelope"></span
           >&nbsp;akshaysharmaay@gmail.com
