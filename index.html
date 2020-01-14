@@ -22,9 +22,9 @@
         min-width: auto;
         min-height: auto;
         max-width: 600px;
-        max-height: 400px;
+        max-height: 1000px;
         margin: 15px 30px;
-        object-fit: cover;
+        overflow: hidden;
       }
 
       .card:hover {
@@ -40,20 +40,48 @@
       }
 
       .image {
-        border-radius: 0%;
+        border-radius: 10%;
         text-align: center;
         width: 90%;
         height: 90%;
-        object-fit: cover;
+      }
+
+      .signature {
+        padding-top: 10px;
       }
 
       .container {
+        display: block;
+        flex: 65%;
         border-left: 30px;
         margin-left: 10px;
         padding: 2px 5px 5px 10px;
-        flex: 65%;
+        max-width: 100%;
         font-family: "Consolas", monospace;
+        overflow: hidden;
       }
+
+      .heading {
+        font-size: auto;
+        word-wrap: break-word;
+      }
+
+      .title {
+        color: red;
+        font-size: 16px;
+        word-wrap: break-word;
+      }
+
+      hr {
+        color: black;
+        width: 50%;
+      }
+
+      .details {
+        font-size: 15px;
+        word-wrap: break-word;
+      }
+
       a {
         color: black;
       }
@@ -73,73 +101,46 @@
         font-size: 20px;
       }
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 550px) {
         .card {
-          display: flex;
           flex-direction: column;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          width: auto;
-          height: auto;
-          min-width: auto;
-          min-height: auto;
-          max-width: 300px;
+          max-width: 250px;
           max-height: 600px;
-          margin: 15px 30px;
-          object-fit: content;
-        }
-
-        .card:hover {
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
         }
 
         .photo {
-          flex: auto;
-          padding: 10px;
-          height: 100%;
-          width: 100%;
-          max-height: 350px;
-          max-width: 450px;
-          background-color: #ffcd94;
-          text-align: center;
+          max-height: 270px;
         }
 
         .image {
-          border-radius: 0%;
-          text-align: center;
-          max-height: 320px;
-          max-width: 450px;
-          width: 80%;
-          height: 80%;
-          object-fit: cover;
+          max-height: 220px;
+        }
+
+        .signature {
+          padding-top: 15px;
         }
 
         .container {
-          flex: auto;
-          border-left: 30px;
-          margin-left: 10px;
-          padding: 2px 5px 5px 10px;
-          max-width: 450px;
           max-height: 350px;
           font-family: "Consolas", monospace;
-          font-size-adjust: auto;
-        }
-        a {
-          color: black;
-        }
-        a:hover {
-          cursor: pointer;
         }
 
-        .fa-github:hover {
-          color: grey;
+        .heading {
+          font-size: 25px;
+          text-align: center;
         }
 
-        .fa-instagram:hover {
-          color: rgb(225, 48, 108);
+        .title {
+          text-align: center;
+        }
+
+        hr {
+          width: 100%;
         }
 
         .icon {
-          font-size: 20px;
+          font-size: 18px;
+          text-align: center;
         }
       }
     </style>
@@ -149,18 +150,17 @@
     <div class="card">
       <div class="photo">
         <img class="image" src="Screenshots/Photo.png" alt="Avatar" />
-        <p style="padding-top: 10px">AS</p>
+        <p class="signature">AS</p>
       </div>
-
       <div class="container">
-        <h2 style="font-size: auto"><b>Akshay Sharma</b></h2>
-        <p style="color:red; font-size: 16px ">Front End Developer</p>
-        <hr align="left" style="color:black; width: 50%" />
-        <p style="font-size: 16px">
+        <h2 class="heading"><b>Akshay Sharma</b></h2>
+        <p class="title">Front End Developer</p>
+        <hr align="left" />
+        <p class="details">
           <span class="glyphicon glyphicon-envelope"></span
           >&nbsp;akshaysharmaay@gmail.com
         </p>
-        <p style="font-size: 17px">
+        <p class="details">
           <span class="glyphicon glyphicon-phone"></span>&nbsp;(+91)8979800865
         </p>
         <br />
