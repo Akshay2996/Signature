@@ -15,6 +15,7 @@
     <style>
       .card {
         display: flex;
+        flex-direction: row;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         width: auto;
         height: auto;
@@ -59,26 +60,92 @@
       a:hover {
         cursor: pointer;
       }
+
+      .fa-github:hover {
+        color: grey;
+      }
+
+      .fa-instagram:hover {
+        color: rgb(225, 48, 108);
+      }
+
       .icon {
         font-size: 20px;
       }
 
       @media only screen and (max-width: 600px) {
         .card {
+          display: flex;
+          flex-direction: column;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          transition: 0.3s;
-          width: 40%;
+          width: auto;
+          height: auto;
+          min-width: auto;
+          min-height: auto;
+          max-width: 300px;
+          max-height: 600px;
+          margin: 15px 30px;
+          object-fit: content;
         }
 
         .card:hover {
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
         }
+
+        .photo {
+          flex: auto;
+          padding: 10px;
+          height: 100%;
+          width: 100%;
+          max-height: 350px;
+          max-width: 450px;
+          background-color: #ffcd94;
+          text-align: center;
+        }
+
+        .image {
+          border-radius: 0%;
+          text-align: center;
+          max-height: 320px;
+          max-width: 450px;
+          width: 80%;
+          height: 80%;
+          object-fit: cover;
+        }
+
+        .container {
+          flex: auto;
+          border-left: 30px;
+          margin-left: 10px;
+          padding: 2px 5px 5px 10px;
+          max-width: 450px;
+          max-height: 350px;
+          font-family: "Consolas", monospace;
+          font-size-adjust: auto;
+        }
+        a {
+          color: black;
+        }
+        a:hover {
+          cursor: pointer;
+        }
+
+        .fa-github:hover {
+          color: grey;
+        }
+
+        .fa-instagram:hover {
+          color: rgb(225, 48, 108);
+        }
+
+        .icon {
+          font-size: 20px;
+        }
       }
     </style>
   </head>
   <body>
-    Regards,
-    <br />
+    <p><b>&nbsp; Regards,</b></p>
     <div class="card">
       <div class="photo">
         <img class="image" src="Screenshots/Photo.png" alt="Avatar" />
