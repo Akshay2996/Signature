@@ -10,8 +10,6 @@ This Repo contains my digital signature made by myself using **Html** and **CSS*
 
 ![FinalProgress](https://user-images.githubusercontent.com/37118877/71652169-8bd3d680-2d49-11ea-8e91-e2195bd9598d.PNG)
 
-Need to make just a minor change (Make it a responsive card)
-
 ### :bulb: Completed :bulb:
 
 Responsive **Email Signature** created. Depends on the **width** of the screen 
