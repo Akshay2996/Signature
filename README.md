@@ -2,21 +2,13 @@
 
 This Repo contains my digital signature made by myself using **Html** and **CSS**
 
-### :construction: Work in Progress :construction:
+### :bulb: Signature :bulb:
 
-![In Progress](https://user-images.githubusercontent.com/37118877/71555373-96dced00-2a51-11ea-98b2-d867582f81cf.PNG)
+Responsive **Email Signature** created. Depends on the **width** of the screen
 
-### :label: Progress so far :heavy_exclamation_mark:
+**Screen Width** > 550px - 1<sup>st</sup> Image
 
-![FinalProgress](https://user-images.githubusercontent.com/37118877/71652169-8bd3d680-2d49-11ea-8e91-e2195bd9598d.PNG)
-
-### :bulb: Completed :bulb:
-
-Responsive **Email Signature** created. Depends on the **width** of the screen 
-
-__Screen Width__ > 550px - 1<sup>st</sup> Image
-
-__Screen Width__ <= 550px - 2<sup>nd</sup> Image
+**Screen Width** <= 550px - 2<sup>nd</sup> Image
 
 ![Completed-01](https://user-images.githubusercontent.com/37118877/72518575-a8a8f780-387b-11ea-983f-9528f87ff553.png)
 
