@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: auto;
+  height: auto;
+  min-width: auto;
+  min-height: auto;
+  max-width: 600px;
+  max-height: 1000px;
+  margin: 15px 30px;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-out;
+
+  background: rgba(245, 245, 245, 1);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.photo {
+  flex: 35%;
+  padding: 10px;
+  height: center;
+  background-color: #ffcd94;
+  text-align: center;
+}
+
+.image {
+  border-radius: 10%;
+  text-align: center;
+  width: 90%;
+  height: 90%;
+}
+
+.signature {
+  padding-top: 10px;
+}
+
+.container {
+  display: block;
+  flex: 65%;
+  border-left: 30px;
+  margin-left: 10px;
+  padding: 2px 5px 5px 10px;
+  max-width: 100%;
+  font-family: "Consolas", monospace;
+  overflow: hidden;
+}
+
+.heading {
+  font-size: auto;
+  word-wrap: break-word;
+}
+
+.title {
+  color: red;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+hr {
+  color: black;
+  width: 50%;
+}
+
+.details {
+  font-size: 15px;
+  word-wrap: break-word;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #e1306c;
+}
+.fa-codepen:hover {
+  color: #47cf73;
+}
+
+.fa-globe:hover {
+  color: #eb5424;
+}
+
+.fa-github:hover {
+  color: #6e5494;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+  .card {
+    flex-direction: column;
+    max-width: 250px;
+    max-height: 600px;
+  }
+
+  .photo {
+    max-height: 270px;
+  }
+
+  .image {
+    max-height: 220px;
+  }
+
+  .signature {
+    padding-top: 15px;
+  }
+
+  .container {
+    max-height: 350px;
+    font-family: "Consolas", monospace;
+  }
+
+  .heading {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .icon {
+    font-size: 18px;
+    text-align: center;
+  }
+}
